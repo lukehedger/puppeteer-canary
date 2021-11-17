@@ -1,0 +1,12 @@
+{
+  "name": "puppeteer-canary",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Using Puppeteer for functional tests and synthetic canaries on AWS CloudWatch",
+  "scripts": {
+    "test": "node -e 'require(\"./canary.js\").handler()'"
+  },
+  "dependencies": {
+    "puppeteer": "11.0.0"
+  }
+}
